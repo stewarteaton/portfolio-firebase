@@ -56,7 +56,8 @@ class contact extends Component {
           .catch(function (error) {
             console.log('did not work');
             console.log(error);
-            alert('Error: message was not sent. Use email in my Resume please');
+            alert('Error: message was was likely blocked as spam');
+            // alert('Error: message was not sent. Use email in my Resume please');
         });
         // clears input form after submitted
         this.setState({

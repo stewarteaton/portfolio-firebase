@@ -43,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://us-central1-personal-website-541f9.cloudfunctions.net/api"
+  "proxy": "http://localhost:5000/personal-website-541f9/us-central1/api",
+  "production": "https://us-central1-personal-website-541f9.cloudfunctions.net/api"
+
+
 }
