@@ -233,6 +233,25 @@ html,body{
       font-weight:300;
       font-size:1.3em;
     }
+    .projectToggleDiv{
+      // background-color: green;
+      margin: auto;
+      width: 85%;
+      display: flex;
+      flex-direction: row;
+      .projectsToggleSoftware{
+        margin-left: 0; margin-right: auto;
+        font-size: 1.5em;
+      }
+      .projectsToggleChemical{
+        margin-right: 0; margin-left: auto;
+        font-size: 1.5em;
+      }
+      .projectsToggleSoftware:hover,.projectsToggleChemical:hover{
+        color:#f73378;
+        cursor: pointer;
+      }
+    }
     hr{
         border-bottom: 1px solid white;;
         border-radius:5px;
@@ -348,6 +367,12 @@ footer{
     }
     .projectsPage{
         width: 80%;
+        .projectToggleDiv{
+          width: 60%;
+          .projectsToggleSoftware, .projectsToggleChemical{
+            font-size: 2em;
+          }
+        }
     }
     .contact{
       padding:10% 14% 10% 14%;

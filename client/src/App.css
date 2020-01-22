@@ -281,6 +281,35 @@ a {
   font-size: 1.3em;
 }
 
+.projectsPage .projectToggleDiv {
+  margin: auto;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.projectsPage .projectToggleDiv .projectsToggleSoftware {
+  margin-left: 0;
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+.projectsPage .projectToggleDiv .projectsToggleChemical {
+  margin-right: 0;
+  margin-left: auto;
+  font-size: 1.5em;
+}
+
+.projectsPage .projectToggleDiv .projectsToggleSoftware:hover, .projectsPage .projectToggleDiv .projectsToggleChemical:hover {
+  color: #f73378;
+  cursor: pointer;
+}
+
 .projectsPage hr {
   border-bottom: 1px solid white;
   border-radius: 5px;
@@ -398,6 +427,12 @@ footer {
   }
   .projectsPage {
     width: 80%;
+  }
+  .projectsPage .projectToggleDiv {
+    width: 60%;
+  }
+  .projectsPage .projectToggleDiv .projectsToggleSoftware, .projectsPage .projectToggleDiv .projectsToggleChemical {
+    font-size: 2em;
   }
   .contact {
     padding: 10% 14% 10% 14%;

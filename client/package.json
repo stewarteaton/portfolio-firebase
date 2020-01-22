@@ -18,7 +18,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,6 +45,4 @@
   },
   "proxy": "http://localhost:5000/personal-website-541f9/us-central1/api",
   "production": "https://us-central1-personal-website-541f9.cloudfunctions.net/api"
-
-
 }
