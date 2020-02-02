@@ -331,10 +331,6 @@ a {
   font-size: 1.1em;
 }
 
-.projectsPage .techUsed {
-  color: #673ab7;
-}
-
 .projectsPage .readMoreBtn {
   border: 2px solid #673ab7;
   background-color: white;
@@ -349,6 +345,38 @@ a {
 
 .projectsPage .launchIcon:hover, .projectsPage .githubIcon:hover {
   color: white;
+}
+
+.projectsPage .skillsPaper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projectsPage .skillsPaper .item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 2%;
+}
+
+.projectsPage .skillsPaper .caption {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.projectsPage .skillsPaper .column {
+  width: 100%;
+}
+
+.projectsPage .skillsIcon {
+  padding: 10px 0 0px 0;
+  width: 60px;
+  height: 60px;
 }
 
 .contact {
@@ -426,7 +454,7 @@ footer {
     padding: 10% 12% 10% 12%;
   }
   .projectsPage {
-    width: 80%;
+    width: 85%;
   }
   .projectsPage .projectToggleDiv {
     width: 60%;

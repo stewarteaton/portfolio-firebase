@@ -12,7 +12,7 @@ import Projects from './pages/projects';
 import Home from './pages/home';
 
 // so proxy base api url works outside of development stage // sol to problem with live-server in production build
-// axios.defaults.baseURL = 'https://us-central1-personal-website-541f9.cloudfunctions.net/api'; 
+axios.defaults.baseURL = 'https://us-central1-personal-website-541f9.cloudfunctions.net/api'; 
 
 class App extends Component {
   render() {

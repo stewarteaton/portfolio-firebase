@@ -17,6 +17,8 @@ import sass from '../images/svg-icons/sass.svg';
 import python from '../images/svg-icons/python.svg';
 import aws from '../images/svg-icons/aws.svg';
 import php from '../images/svg-icons/php.svg';
+import oracle from '../images/svg-icons/icons8-oracle-logo2.svg'
+import mariadb from '../images/svg-icons/mariadb.svg';
 import mysql from '../images/svg-icons/mysql.svg';
 import postgresql from '../images/svg-icons/postgresql.svg';
 import objectiveC from '../images/svg-icons/apple.svg';
@@ -24,6 +26,8 @@ import swift from '../images/svg-icons/swift.svg';
 import heroku from '../images/svg-icons/heroku.svg';
 import materialUI from '../images/svg-icons/material-ui.svg';
 import postman from '../images/svg-icons/postman.svg';
+import cloudinary from '../images/svg-icons/cloudinary.svg';
+import express from '../images/svg-icons/express.svg';
 
 
 
@@ -53,15 +57,18 @@ export default function skills() {
                 <Paper className='skillsPaper'>
                     <Grid container spacing={2}>
                             <SkillsIcon icon={nodejs} name='Node.js' />
+                            {/* <SkillsIcon icon={express} name='Express.js' /> */}
                             <SkillsIcon icon={mongodb} name='MongoDB' />
                             <SkillsIcon icon={firebase} name='Firebase' />
-                            <SkillsIcon icon={postman} name='Postman' />
+                            <SkillsIcon icon={oracle} name='Oracle' />
+                            <SkillsIcon icon={mariadb} name='MariaDB' />
+                            <SkillsIcon icon={heroku} name='Heroku' />
+                            <SkillsIcon icon={cloudinary} name='Cloudinary' />
+                            <SkillsIcon icon={aws} name='AWS' />
                             <SkillsIcon icon={java} name='Java' />
                             <SkillsIcon icon={python} name='Python' />
-                            <SkillsIcon icon={aws} name='AWS' />
                             <SkillsIcon icon={php} name='PHP' />
-                            <SkillsIcon icon={heroku} name='Heroku' />
-                            <SkillsIcon icon={postgresql} name='PostgreSQL' />
+                            <SkillsIcon icon={postman} name='Postman' />
                     </Grid>
                 </Paper>
 

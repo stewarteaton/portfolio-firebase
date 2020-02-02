@@ -270,11 +270,8 @@ html,body{
     p{
         font-size:1.1em; 
     }
-    .techUsed{
-      color: #673ab7;
-    }
     .readMoreBtn{
-        border: 2px solid #673ab7;;
+        border: 2px solid #673ab7;
         background-color:white;
         color: #673ab7;
         font-weight: 600;
@@ -287,6 +284,29 @@ html,body{
      }
     }
 
+    .skillsPaper{
+      display:flex;
+      width: 100%;
+      justify-content: space-between;
+      .item{
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        // width: 10%;
+        // width: 80px;
+        margin: 2%;
+      }
+      .caption{ display:block; padding-bottom:10px}
+      .column{
+        width:100%;
+      }
+    }
+    
+    .skillsIcon{
+      padding: 10px 0 0px 0;
+      width:60px;
+      height:60px;
+    }
 }
 
 // ******* Contact Page ******
@@ -366,7 +386,7 @@ footer{
 
     }
     .projectsPage{
-        width: 80%;
+        width: 85%;
         .projectToggleDiv{
           width: 60%;
           .projectsToggleSoftware, .projectsToggleChemical{
