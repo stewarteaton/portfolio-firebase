@@ -6,7 +6,7 @@ export default function Footer() {
     return (
 
         <footer>
-            <h3>Copyright <CopyrightIcon /> 2019 Stewart Eaton</h3>
+            <h3>Copyright <CopyrightIcon /> 2021 Stewart Eaton</h3>
         </footer>
 
     )

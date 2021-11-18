@@ -44,17 +44,17 @@ export default function SocialLinks() {
                         <i className="fab fa-github" ></i>
                     </a>
                 </Tooltip>
+                <Tooltip title='Twitter' placement='top'>
+                    <a href='https://twitter.com/random_guy_01' style={{color: "#00acee"}} target='_blank' rel="noopener noreferrer">
+                        {/* <i className="fab fa-facebook-square" style={{ color: '#3b5998' }}></i> */}
+                        {/* <i className="fab fa-facebook-square"></i> */}
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </Tooltip>
                 <Tooltip title='Instagram' placement='top'>
                     <a href='https://www.instagram.com/stewart_eaton/' target='_blank' rel="noopener noreferrer">
                         {/* <i className="fab fa-instagram" style={{ color: '#C13584' }} ></i> */}
                         <i className="fab fa-instagram"  ></i>
-
-                    </a>
-                </Tooltip>
-                <Tooltip title='Facebook' placement='top'>
-                    <a href='https://www.facebook.com/stewart.eaton.96' target='_blank' rel="noopener noreferrer">
-                        {/* <i className="fab fa-facebook-square" style={{ color: '#3b5998' }}></i> */}
-                        <i className="fab fa-facebook-square"></i>
                     </a>
                 </Tooltip>
             </div>
